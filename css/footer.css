@@ -1,0 +1,156 @@
+.footer {
+    padding: 100px 0;
+    background: #2e2f42;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-info {
+    margin-right: 120px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+
+    color: #4d5ae5;
+}
+
+.footer-logo span {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    width: 264px;
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: #f4f4fd;
+}
+
+.footer-title {
+    margin-bottom: 16px;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+}
+
+.footer-social {
+    margin-right: auto;
+}
+
+.social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #4d5ae5;
+
+    color: #ffffff;
+
+    transition: background-color 250ms;
+}
+
+.social-link svg {
+    fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background: #31d0aa;
+}
+
+.footer-subscribe {
+    margin-left: auto;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
+.subscribe-form input {
+    width: 264px;
+    height: 40px;
+
+    padding: 8px 16px;
+
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+
+    background: transparent;
+
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+
+    color: #ffffff;
+
+    outline: none;
+
+    transition: border-color 250ms;
+}
+
+.subscribe-form input::placeholder {
+    color: #ffffff;
+}
+
+.subscribe-form input:focus {
+    border-color: #31d0aa;
+}
+
+.subscribe-form button {
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 16px;
+
+    padding: 8px 24px;
+
+    border: none;
+    border-radius: 4px;
+
+    background: #4d5ae5;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    transition: background-color 250ms;
+}
+
+.subscribe-form button svg {
+    fill: #ffffff;
+}
+
+.subscribe-form button:hover,
+.subscribe-form button:focus {
+    background: #31d0aa;
+}

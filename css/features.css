@@ -15,8 +15,13 @@
     text-align: left;
 
 }
+.features-title {
+    text-align: center;
+}
 
-
+.features-text {
+    text-align: left;
+}
 
 .features-icon {
 

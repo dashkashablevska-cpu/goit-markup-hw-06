@@ -247,6 +247,13 @@
     }
 
 
+    .social-list {
+
+        justify-content: flex-start;
+
+    }
+
+
     .subscribe-form {
 
         flex-direction: row;

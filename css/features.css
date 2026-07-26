@@ -9,26 +9,11 @@
 }
 
 
-
 .features-item {
 
     text-align: left;
 
 }
-.features-title {
-    text-align: center;
-}
-
-.features-text {
-    text-align: left;
-}
-
-.features-icon {
-
-    display: none;
-
-}
-
 
 
 .features-title {
@@ -43,8 +28,11 @@
 
     color: #2e2f42;
 
-}
+    text-align: center;
 
+    letter-spacing: 0.02em;
+
+}
 
 
 .features-text {
@@ -56,6 +44,17 @@
     font-weight: 500;
 
     color: #434455;
+
+    text-align: left;
+
+    letter-spacing: 0.02em;
+
+}
+
+
+.features-icon {
+
+    display: none;
 
 }
 
@@ -81,6 +80,12 @@
 
     }
 
+
+    .features-title {
+
+        text-align: left;
+
+    }
 
 }
 
@@ -140,6 +145,8 @@
         line-height: 1.2;
 
         font-weight: 500;
+
+        text-align: left;
 
     }
 

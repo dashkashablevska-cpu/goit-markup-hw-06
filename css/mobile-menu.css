@@ -11,7 +11,9 @@
     background-color: #ffffff;
 
     opacity: 0;
+
     visibility: hidden;
+
     pointer-events: none;
 
     transition:
@@ -19,6 +21,7 @@
         visibility 250ms ease;
 
 }
+
 
 
 .mobile-menu.is-open {
@@ -43,7 +46,7 @@
 
     height: 100%;
 
-    padding: 80px 40px 40px;
+    padding: 72px 24px 40px;
 
 }
 
@@ -54,6 +57,7 @@
     position: absolute;
 
     top: 24px;
+
     right: 24px;
 
 
@@ -65,6 +69,7 @@
 
 
     width: 24px;
+
     height: 24px;
 
 
@@ -110,6 +115,8 @@
 
     font-weight: 700;
 
+    letter-spacing: 0.02em;
+
     color: #2e2f42;
 
 }
@@ -146,11 +153,13 @@
 
 .mobile-menu-phone {
 
-    font-size: 36px;
+    font-size: 24px;
 
     line-height: 1.11;
 
-    font-weight: 700;
+    font-weight: 500;
+
+    letter-spacing: 0.02em;
 
     color: #4d5ae5;
 
@@ -160,11 +169,13 @@
 
 .mobile-menu-email {
 
-    font-size: 20px;
+    font-size: 18px;
 
     line-height: 1.2;
 
     font-weight: 500;
+
+    letter-spacing: 0.02em;
 
     color: #434455;
 
@@ -192,12 +203,14 @@
 
     justify-content: center;
 
+
     width: 40px;
 
     height: 40px;
 
 
     border-radius: 50%;
+
 
     background-color: #4d5ae5;
 

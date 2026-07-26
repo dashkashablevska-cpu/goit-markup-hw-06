@@ -1,6 +1,6 @@
 .footer {
     padding: 100px 0;
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .footer-container {
@@ -54,20 +54,19 @@
 }
 
 .social-link {
-    width: 40px;
-    height: 40px;
-
     display: flex;
     align-items: center;
     justify-content: center;
 
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 
-    background: #4d5ae5;
+    border-radius: 50%;
+    background-color: #4d5ae5;
 
     color: #ffffff;
 
-    transition: background-color 250ms;
+    transition: background-color 250ms ease;
 }
 
 .social-link svg {
@@ -76,7 +75,7 @@
 
 .social-link:hover,
 .social-link:focus {
-    background: #31d0aa;
+    background-color: #31d0aa;
 }
 
 .footer-subscribe {
@@ -97,7 +96,7 @@
     border: 1px solid #ffffff;
     border-radius: 4px;
 
-    background: transparent;
+    background-color: transparent;
 
     font-size: 12px;
     line-height: 1.17;
@@ -107,7 +106,7 @@
 
     outline: none;
 
-    transition: border-color 250ms;
+    transition: border-color 250ms ease;
 }
 
 .subscribe-form input::placeholder {
@@ -119,20 +118,19 @@
 }
 
 .subscribe-form button {
-    height: 40px;
-
     display: flex;
     align-items: center;
     justify-content: center;
 
     gap: 16px;
 
+    height: 40px;
     padding: 8px 24px;
 
     border: none;
     border-radius: 4px;
 
-    background: #4d5ae5;
+    background-color: #4d5ae5;
 
     font-size: 16px;
     font-weight: 500;
@@ -143,7 +141,7 @@
 
     cursor: pointer;
 
-    transition: background-color 250ms;
+    transition: background-color 250ms ease;
 }
 
 .subscribe-form button svg {
@@ -152,5 +150,74 @@
 
 .subscribe-form button:hover,
 .subscribe-form button:focus {
-    background: #31d0aa;
+    background-color: #31d0aa;
+}
+
+
+/* Tablet */
+
+@media screen and (max-width: 1158px) {
+
+    .footer {
+        padding: 96px 0;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 72px 24px;
+    }
+
+    .footer-info {
+        margin-right: 0;
+    }
+
+    .footer-social {
+        margin-right: 0;
+    }
+
+    .footer-subscribe {
+        margin-left: 0;
+    }
+
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+
+    .footer {
+        padding: 96px 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        gap: 72px;
+    }
+
+    .footer-text {
+        width: 100%;
+        max-width: 264px;
+    }
+
+    .social-list {
+        justify-content: center;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+        align-items: center;
+
+        gap: 16px;
+    }
+
+    .subscribe-form input {
+        width: 100%;
+        max-width: 360px;
+    }
+
 }

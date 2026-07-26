@@ -1,0 +1,181 @@
+.mobile-menu-open {
+    display: none;
+
+    width: 24px;
+    height: 24px;
+
+    padding: 0;
+
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.mobile-menu-open svg {
+    fill: #2e2f42;
+}
+
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 24px;
+
+    background-color: #ffffff;
+
+    transform: translateX(100%);
+    transition: transform 250ms ease;
+}
+
+
+.mobile-menu.is-open {
+    transform: translateX(0);
+}
+
+
+.mobile-menu-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 24px;
+    height: 24px;
+
+    margin-left: auto;
+    margin-bottom: 40px;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+
+.mobile-menu-close svg {
+    fill: #2e2f42;
+}
+
+
+.mobile-menu-nav {
+    margin-bottom: auto;
+}
+
+
+.mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.mobile-menu-link {
+    font-size: 36px;
+    font-weight: 700;
+
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+
+    color: #2e2f42;
+}
+
+
+.mobile-menu-link.current {
+    color: #404bbf;
+}
+
+
+.mobile-menu-contacts {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+
+    margin-bottom: 48px;
+}
+
+
+.mobile-menu-phone {
+    font-size: 36px;
+    font-weight: 700;
+
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+
+    color: #4d5ae5;
+}
+
+
+.mobile-menu-email {
+    font-size: 20px;
+
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: #434455;
+}
+
+
+.mobile-menu-social {
+    display: flex;
+    gap: 40px;
+}
+
+
+.mobile-menu-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    background-color: #4d5ae5;
+
+    color: #ffffff;
+}
+
+
+.mobile-menu-social-link svg {
+    fill: currentColor;
+}
+
+
+/* Mobile only */
+
+@media screen and (max-width: 767px) {
+
+    .mobile-menu-open {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+/* Tablet and desktop */
+
+@media screen and (min-width: 768px) {
+
+    .mobile-menu {
+        display: none;
+    }
+
+}

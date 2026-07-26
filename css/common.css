@@ -38,11 +38,15 @@ textarea {
     font-family: inherit;
 }
 
+
 .container {
     width: 100%;
-    max-width: 320px;
+    max-width: 1158px;
+
     margin: 0 auto;
-    padding: 0 16px;
+
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 
@@ -54,6 +58,7 @@ textarea {
 .section-title {
     font-size: 36px;
     line-height: 1.11;
+    font-weight: 700;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -62,37 +67,62 @@ textarea {
 
 .sr-only {
     position: absolute;
+
     width: 1px;
     height: 1px;
+
     padding: 0;
     margin: -1px;
+
     overflow: hidden;
+
     clip: rect(0, 0, 0, 0);
+
     white-space: nowrap;
+
     border: 0;
 }
 
 
+
+/* Tablet */
+
 @media screen and (min-width: 768px) {
 
+
     .container {
+
         max-width: 768px;
-        padding: 0 24px;
+
+        padding-left: 32px;
+        padding-right: 32px;
+
     }
 
 }
 
 
+
+
+/* Desktop */
+
 @media screen and (min-width: 1158px) {
 
+
     .container {
+
         max-width: 1158px;
-        padding: 0 15px;
+
+        padding-left: 15px;
+        padding-right: 15px;
+
     }
 
 
     .section {
+
         padding: 120px 0;
+
     }
 
 }
